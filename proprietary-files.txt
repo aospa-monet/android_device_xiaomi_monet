@@ -390,12 +390,6 @@ vendor/lib64/liboemcrypto.so
 vendor/etc/cs35l41_cal.wav
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/Conf_MultipleTest.ini
-vendor/firmware/a620_zap.b00
-vendor/firmware/a620_zap.b01
-vendor/firmware/a620_zap.b02
-vendor/firmware/a620_zap.elf
-vendor/firmware/a620_zap.mdt
-vendor/firmware/a630_sqe.fw
 vendor/firmware/aw8624_haptic.bin
 vendor/firmware/aw8624_rtp.bin
 vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
