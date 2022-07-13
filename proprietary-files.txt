@@ -398,9 +398,6 @@ vendor/etc/init/init.batterysecret.rc
 # Display calibration data
 vendor/etc/qdcm_calib_data_xiaomi_38_0a_0a_video_mode_fhd_dsi_panel.xml
 
-# DRM (OEM Crypto API)
-vendor/lib64/liboemcrypto.so
-
 # Firmware
 vendor/etc/cs35l41_cal.wav
 vendor/firmware/CAMERA_ICP.elf
@@ -447,9 +444,6 @@ vendor/firmware/ipa_fws.b03
 vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
-
-# Secure element
-vendor/lib64/libwvkeybox.so
 
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
