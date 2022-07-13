@@ -43,9 +43,6 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
-# Properties
--include $(LOCAL_PATH)/properties.mk
-
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/common.mk)
 
@@ -54,3 +51,4 @@ EXTRA_UDFPS_ANIMATIONS := true
 
 # SoC
 PROCESSOR_MODEL := SM7250
+
