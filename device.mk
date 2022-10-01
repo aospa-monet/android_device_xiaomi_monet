@@ -7,6 +7,10 @@
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/monet/monet-vendor.mk)
 
+# AAPT
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # Audio configs
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
@@ -20,8 +24,6 @@ PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := sm7250
 
 # Screen density
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xhdpi
 TARGET_SCREEN_DENSITY := 440
 
 # Boot animation
@@ -31,7 +33,7 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Fingerprint
-TARGET_HAS_FOD := true
+TARGET_HAS_UDFPS := true
 
 # Properties
 -include $(LOCAL_PATH)/properties.mk
