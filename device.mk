@@ -49,14 +49,4 @@ $(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
 EXTRA_UDFPS_ANIMATIONS := true
 
 # SoC
-PROCESSOR_MODEL := SM7250
-
-
-
-# Don't build debug for host or device
-PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := true
-ART_BUILD_TARGET_NDEBUG := true
-ART_BUILD_TARGET_DEBUG := true
-ART_BUILD_HOST_NDEBUG := true
-ART_BUILD_HOST_DEBUG := false
-USE_DEX2OAT_DEBUG := true
+PROCESSOR_MODEL := SM7250 
