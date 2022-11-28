@@ -17,10 +17,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-xtended
 
-# RRO configuration
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
-
 # Board
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := sm7250
