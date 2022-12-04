@@ -1,0 +1,7 @@
+# Maintainer                                                           
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.xtended.maintainer=alecchangod
+
+# Xteneded version
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.xtended.display.version=XT-UNOFFICIAL-Release-v3.0
