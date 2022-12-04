@@ -19,6 +19,3 @@ TARGET_KERNEL_CONFIG := monet_defconfig
 
 # Inherit from the proprietary version
 include vendor/xiaomi/monet/BoardConfigVendor.mk
-
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
