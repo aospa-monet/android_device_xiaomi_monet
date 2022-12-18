@@ -45,5 +45,5 @@
     <dimen name="status_bar_padding_end">12dp</dimen>
     
     <!-- rounded corner content padding -->
-    <dimen name="rounded_corner_content_padding">7.0dip</dimen>
+    <!-- <dimen name="rounded_corner_content_padding">7dp</dimen> -->
 </resources>
