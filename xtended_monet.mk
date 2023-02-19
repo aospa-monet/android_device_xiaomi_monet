@@ -35,7 +35,8 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_USES_BLUR := true
 XTENDED_BUILD_DONATE_URL := https://www.paypal.com/paypalme/Alec174
 
+# Build fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="monet-user 12 SKQ1.211006.001 V13.0.2.0.SJIEUXM release-keys"
+    PRIVATE_BUILD_DESC="cheetah-user 13 TQ1A.230205.002 9471150 release-keys"
 
-BUILD_FINGERPRINT := google/cheetah/cheetah:13/TQ1A.230105.002/9325679:user/release-keys
+BUILD_FINGERPRINT := google/cheetah/cheetah:13/TQ1A.230205.002/9471150:user/release-keys
