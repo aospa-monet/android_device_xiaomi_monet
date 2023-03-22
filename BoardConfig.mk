@@ -4,15 +4,18 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DEVICE_PATH := device/xiaomi/monet
+
+BUILD_BROKEN_DUP_RULES := true
+
 # Inherit from sm7250-common
 include device/xiaomi/sm7250-common/BoardConfigCommon.mk
 
 # A/B
 TARGET_IS_VAB := false
 
-DEVICE_PATH := device/xiaomi/monet
-
-BUILD_BROKEN_DUP_RULES := true
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := lito
 
 # Display
 TARGET_SCREEN_DENSITY := 440
