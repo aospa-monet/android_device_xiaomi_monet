@@ -26,5 +26,8 @@ TARGET_KERNEL_CONFIG := monet_defconfig
 # SoC
 PROCESSOR_MODEL := SM7250
 
+# UDFPS
+TARGET_HAS_UDFPS := true
+
 # Inherit from the proprietary version
 include vendor/xiaomi/monet/BoardConfigVendor.mk
