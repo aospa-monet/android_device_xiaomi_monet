@@ -23,5 +23,8 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 TARGET_KERNEL_CONFIG := monet_defconfig
 
+# SoC
+PROCESSOR_MODEL := SM7250
+
 # Inherit from the proprietary version
 include vendor/xiaomi/monet/BoardConfigVendor.mk
