@@ -13,7 +13,6 @@ include device/xiaomi/sm7250-common/BoardConfigCommon.mk
 
 # A/B
 TARGET_IS_VAB := false
-PRODUCT_VIRTUAL_AB_OTA := false
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := lito
