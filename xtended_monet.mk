@@ -14,6 +14,9 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 # Inherit from monet device
 $(call inherit-product, device/xiaomi/monet/device.mk)
 
+# MIUI Camera
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := xtended_monet
 PRODUCT_DEVICE := monet
