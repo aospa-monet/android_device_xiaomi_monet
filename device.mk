@@ -19,6 +19,9 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+    XtendedFrameworksResCommon
+
 # Board
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := sm7250
@@ -45,4 +48,4 @@ $(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
 EXTRA_UDFPS_ANIMATIONS := true
 
 # SoC
-PROCESSOR_MODEL := SM7250 
+PROCESSOR_MODEL := SM7250

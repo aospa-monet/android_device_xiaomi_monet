@@ -23,8 +23,6 @@
     <bool name="config_screenOffFodWorking">true</bool>
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
-    <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_supportSmartPixels">true</bool>
 </resources>
 
 
