@@ -14,6 +14,9 @@ $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 # Inherit from monet device
 $(call inherit-product, device/xiaomi/monet/device.mk)
 
+# Include firmware
+$(call inherit-product, vendor/xiaomi-firmware/monet/firmware.mk)
+
 # MIUI Camera
 $(call inherit-product, vendor/xiaomi/camera/products/miuicamera.mk)
 
