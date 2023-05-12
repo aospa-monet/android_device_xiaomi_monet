@@ -15,12 +15,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    DeviceSettings \
-    init.devicesettings.rc \
-    privapp-permissions-devicesettings.xml
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
@@ -51,4 +45,4 @@ $(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
 EXTRA_UDFPS_ANIMATIONS := true
 
 # SoC
-PROCESSOR_MODEL := SM7250
+PROCESSOR_MODEL := SM7250 
