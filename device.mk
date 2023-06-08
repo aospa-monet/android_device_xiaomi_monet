@@ -41,8 +41,8 @@ TARGET_HAS_UDFPS := true
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
-# Inherit from sm7250-common
-$(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
+# Inherit from sm8250-common
+$(call inherit-product, device/xiaomi/sm8250-common/common.mk)
 
 # UDFPS animations
 EXTRA_UDFPS_ANIMATIONS := true
