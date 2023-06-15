@@ -17,7 +17,7 @@ static const variant_info_t monet_info = {
     .device = "monet",
     .marketname = "Mi 10 Lite 5G",
     .model = "M2002J9G",
-    .build_fingerprint = "Xiaomi/monet_eea/monet:12/SKQ1.211006.001/V13.0.2.0.SJIEUXM:user/release-keys",
+    .build_fingerprint = "Xiaomi/monet_global/monet:12/RKQ1.200826.002/V13.0.4.0.SJIMIXM:user/release-keys",
 
     .nfc = true,
 };

@@ -1,4 +1,4 @@
-# All blobs below are extracted from monet 12 SKQ1.211006.001 V13.0.2.0.SJIMIXM release-keys
+# All blobs below are extracted from monet_global-user 12 RKQ1.200826.002 V13.0.4.0.SJIMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Elevoc/Elevoc_Bluetooth_cal.acdb
