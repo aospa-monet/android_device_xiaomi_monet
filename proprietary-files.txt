@@ -30,6 +30,27 @@ vendor/etc/acdbdata/nn_ns_models/fai__2.2.0_0.1__3.0.0_0.0__eai_1.00.pmd
 vendor/etc/acdbdata/nn_vad_models/fai_3.0.0_0.0_eai_1.00.pmd
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# ACDB Loader
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libaudcal.so
+vendor/lib/libqtigef.so
+vendor/lib/libssrec.so
+vendor/lib64/libacdb-fts.so
+vendor/lib64/libacdbloader.so
+vendor/lib64/libacdbrtac.so
+vendor/lib64/libadiertac.so
+vendor/lib64/libaudcal.so
+vendor/lib64/libqtigef.so
+vendor/lib64/libssrec.so
+
+# ADSP
+vendor/lib/libadsprpc.so
+vendor/lib64/libadsprpc.so
+
 # ADSP modules
 vendor/lib/rfsa/adsp/Elevoc_vocplus_capi2.so
 vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so
@@ -519,6 +540,14 @@ vendor/etc/sensors/hals.conf
 vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sns_reg_config
 vendor/etc/elliptic_sensor.xml
+
+# NFC
+vendor/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp-pnscr.conf
+vendor/etc/libnfc-nxp.conf
+vendor/lib/libsn100u_fw.so
+vendor/lib/libsn100u_fw.so:vendor/lib64/libsn100u_fw.so
 
 # Thermal
 vendor/etc/thermal-4k.conf
