@@ -10,7 +10,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Audio configs
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # Board
 PRODUCT_USES_QCOM_HARDWARE := true
@@ -49,7 +49,7 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayMonet
 
 PRODUCT_PACKAGES += \
-    XtendedFrameworksResCommon
+    AospFrameworksResMonet
 
 # UDFPS animations
 EXTRA_UDFPS_ANIMATIONS := true
