@@ -53,22 +53,10 @@ PRODUCT_PACKAGES += \
 
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS := \
-    alarm \
-    audio \
-    av \
-    bt \
-    display \
     gps \
-    init \
-    media \
-    nfc \
-    overlay \
     perf \
-    qseecomd \
-    telephony \
     usb \
-    wfd \
-    wlan
+    vibrator
 
 
 # UDFPS animations
