@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-   $(LOCAL_DIR)/derp_monet.mk
+   $(LOCAL_DIR)/aospa_monet.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_monet-user \
-    derp_monet-userdebug \
-    derp_monet-eng
+    aospa_monet-user \
+    aospa_monet-userdebug \
+    aospa_monet-eng

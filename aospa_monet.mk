@@ -6,13 +6,13 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from monet device
 $(call inherit-product, device/xiaomi/monet/device.mk)
+
+# Inherit from the AOSPA configuration.
+$(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
 # Include firmware
 $(call inherit-product, vendor/xiaomi-firmware/monet/firmware.mk)
@@ -21,7 +21,7 @@ $(call inherit-product, vendor/xiaomi-firmware/monet/firmware.mk)
 # $(call inherit-product, vendor/xiaomi/monet-miuicamera/products/miuicamera.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := derp_monet
+PRODUCT_NAME := aospa_monet
 PRODUCT_DEVICE := monet
 BOARD_VENDOR := Xiaomi
 TARGET_VENDOR := Xiaomi
@@ -35,3 +35,5 @@ EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
+
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
