@@ -53,6 +53,7 @@ PRODUCT_PACKAGES += \
 
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS := \
+    bt \
     gps \
     perf \
     usb \
