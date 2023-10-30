@@ -51,15 +51,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AospFrameworksResMonet
 
-# QTI Components
-TARGET_COMMON_QTI_COMPONENTS := \
-    bt \
-    gps \
-    perf \
-    usb \
-    vibrator
-
-
 # UDFPS animations
 EXTRA_UDFPS_ANIMATIONS := true
 
