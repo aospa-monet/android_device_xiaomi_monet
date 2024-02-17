@@ -390,6 +390,8 @@ vendor/etc/camera/watermark_font_2300_3199.dat
 # Charger (Mi Turbo Charge)
 vendor/bin/hvdcp_opti
 vendor/bin/batterysecret
+vendor/bin/init.qti.chg_policy.sh
+vendor/etc/charger_fstab.qti
 vendor/etc/init/init.batterysecret.rc
 
 # Display calibration data
